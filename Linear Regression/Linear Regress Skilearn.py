@@ -17,10 +17,10 @@ cols = data.shape[1]
 X = data.iloc[:,0:cols-1]  
 y = data.iloc[:,cols-1:cols] 
 
-X_train = X[:-20]
+X_train = X[20:]
 X_test = X[:20]
 
-y_train = y[:-20]
+y_train = y[20:]
 y_test = y[:20]
 
 
